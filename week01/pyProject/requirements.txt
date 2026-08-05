@@ -1,6 +1,6 @@
 // using follewed command: python3 -m pip freeze > requirements.txt
 
-results:
+// results:
 
 charset-normalizer==3.4.5
 pillow==12.1.1
