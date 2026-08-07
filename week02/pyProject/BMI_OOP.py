@@ -6,6 +6,8 @@ class BMI:
     bmi =  weight / (height * height);
     print ("Your BMI is: {:.2f}".format(bmi))
 
+def main():
+  BmiObject = BMI()
+  BmiRes = BmiObject.getResult(56,1.70)
 
-BmiObject = BMI();
-BmiRes = BmiObject.getResult(56,1.70);
+main()
