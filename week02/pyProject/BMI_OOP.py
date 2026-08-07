@@ -10,4 +10,5 @@ def main():
   BmiObject = BMI()
   BmiRes = BmiObject.getResult(56,1.70)
 
-main()
+if __name__ == "__main__":
+  main()
