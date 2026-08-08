@@ -73,7 +73,6 @@ class World:
                 print(f"The word was: {secret}")
                 print("GAME OVER")
                 break
-
         # (loop continues to ask for another letter)
 
 
