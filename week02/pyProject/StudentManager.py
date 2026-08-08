@@ -1,30 +1,39 @@
 import random
 
 class Student:
+  # initialization function which is notthing inside there.
   def __init__ (self,):
     '''test init'''
-
+  # store one student's data
   def setData(self, name, age, address, id):
     self.name = name; # Type str. It is text name.
     self.age = age; # Type int. It is number age.
     self.address = address; # Type str. It is home place.
     self.id = id; # Type str. It is student ID.
 
+#print one student data
   def showData(self):
     print ("ID: {} | Name: {:<35} | Age: {} | Address: {}".format(self.id, self.name, self.age, self.address));
 
 
 class StudentManager:
+
+  # create an emputy list named allStudents to store all students
   def __init__ (self,):
     '''test init'''
     self.allStudents = []; # Type list. It holds many students.
 
+# add one student to allStudents
   def addOneStudent(self, oneStudent):
     self.allStudents.append(oneStudent);
 
+# sort all students by age, from small to big.
+#  lanbda Declare an anonymous function that is used and discarded immediately.
+# this way is faster than using compare function, like sort(a, b){reture a-b};
   def sortWithAge(self):
     self.allStudents.sort(key=lambda s: s.age); # Lambda here. It sorts from small to big.
 
+# print all students
   def showAll(self):
     print ("\nTotal Students: {} (Sorted by Age)".format(len(self.allStudents)));
     for s in self.allStudents:
