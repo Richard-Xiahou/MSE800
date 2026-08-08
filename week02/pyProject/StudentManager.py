@@ -34,6 +34,7 @@ class StudentManager:
 def main():
   ManagerObject = StudentManager()
 
+  # create an list given names, then we can using random func to generate age, id, address ...
   rawNames = [
     "Devin Mindul Abeyratne", "Rithika Reddy Aleti", "Daniel Banggawan", "Smriti Bhandari",
     "Shihan Dushantha Fernando Bothalage", "Xiaohui Chen", "Kudzai Jeremy Chiwome", "Ching Man Chu",
@@ -52,9 +53,11 @@ def main():
     "Aleksandr Voitenko", "Bin Wang", "Huanchen Wu", "Pei Wu", "Pingsheng Xiahou", "Ning Xu", "Gaowei Zhang"
   ]
 
+  # gitven an origin id/cities, ang then we can calculate the next id using +1;
   baseId = 20260001;
   cities = ["Auckland", "Hamilton", "Wellington", "Christchurch"];
 
+ # using a loop to generate random data for each name among the rawNames list
   for name in rawNames:
     randAge = random.randint(18, 30);
     randAddr = "{} State Highway, {}".format(random.randint(1, 150), random.choice(cities));
@@ -66,7 +69,9 @@ def main():
     
     baseId = baseId + 1;
 
+  # call the sort function
   ManagerObject.sortWithAge();
+  # call the print function to display all students after sorting
   ManagerObject.showAll();
 
 
