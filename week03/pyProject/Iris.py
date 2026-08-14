@@ -23,7 +23,7 @@ print("Total records:", len(X))
 print("Different flowers:")
 # for flower in y:
 #    print(flower["class"])
-flowers = y["class"]
+flowers = set(y["class"])  # using "set()" to remove duplicate values
 print(len(flowers))
 
 # Names of all flowers
