@@ -19,7 +19,11 @@ for line in lines:
 # add a new line
 newLines.append("\ntext file nanalysis\n")
 
-# Save the processed file
+# Save the processed file 
+# Mode 
+# r	Read（读取）
+# w	Write（覆盖写入）
+# a	Append（追加）
 data = open("Junk.txt", "w")
 for line in newLines:
     data.write(line)
