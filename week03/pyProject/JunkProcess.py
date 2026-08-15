@@ -1,37 +1,40 @@
+def printFile(lines):
+  for line in lines:
+    print(line[0:-1])
+def main():
+  data = open("junk.txt") # Default is open for reading
 
-data = open("junk.txt") # Default is open for reading
-
-lines = data.readlines() # Get a list of all the lines in the file 
-print("Total lines:", len(lines))
-
-# print whole txt file content
-for line in lines:
-  print(line[0:-1])
-
-data.close()
+  lines = data.readlines() # Get a list of all the lines in the file 
+  print("Total lines:", len(lines))
+  # print whole txt file content
+  printFile(lines)
+  data.close()
 
 
-# convert to lowcase
-newLines = []
-for line in lines:
-  newLines.append(line.lower())
+  # convert to lowcase
+  newLines = []
+  for line in lines:
+    newLines.append(line.lower())
 
-# add a new line
-newLines.append("\ntext file nanalysis\n")
+  # add a new line
+  newLines.append("\ntext file nanalysis\n")
 
-# Save the processed file 
-# Mode 
-# r	Read（读取）
-# w	Write（覆盖写入）
-# a	Append（追加）
-data = open("Junk.txt", "w")
-for line in newLines:
+  # Save the processed file 
+  # Mode 
+  # r	Read（读取）
+  # w	Write（覆盖写入）
+  # a	Append（追加）
+  data = open("Junk.txt", "w")
+  for line in newLines:
     data.write(line)
 
-# print whole txt file content
-for line in lines:
-  print(line[0:-1]) 
+  # print whole txt file content
+  printFile(lines)
 
-data.close()
+  data.close()
 
-print("good!-----,File processing completed.")
+  print("good!-----,File processing completed.")
+
+  if __name__ == "__main__":
+    print("starting...")
+    main()
