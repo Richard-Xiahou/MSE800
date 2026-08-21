@@ -123,10 +123,9 @@ Then choose a menu option.
 Example:
 
 ```
-1 Create Database
-2 Insert Sample Data
-3 Show Total Transactions
-4 Show Transaction History
+
+1 Show Total Transactions
+2 Show Transaction History
 0 Exit
 ```
 
