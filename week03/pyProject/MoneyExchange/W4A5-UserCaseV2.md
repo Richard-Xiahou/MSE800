@@ -4,7 +4,7 @@
 
 
 
-![Image](https://github.com/Richard-Xiahou/MSE800/blob/main/week03/images/Week20%-Activity1.2-Update_the_use_case_diagram_W4-A1.1.JPG)
+![Image](https://github.com/Richard-Xiahou/MSE800/blob/main/week03/images/Week%20-Activity1.2-Update_the_use_case_diagram_W4-A1.1.jpg)
 
 The Money Exchange System has one main actor, the Cashier.
 
