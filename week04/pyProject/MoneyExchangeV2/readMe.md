@@ -18,18 +18,18 @@ The system allows users to:
 
 # Project Structure
 MoneyExchange/
-│
-├── database.py
-├── Customer.py
-├── Currency.py
-├── ExchangeRate.py
-├── Transaction.py
-├── ExchangeManager.py
-├── main.py
-├── README.md
-├── W4A3-ClassDiagram.md
-│
-../../images/
+ │
+ ├── database.py
+ ├── Customer.py
+ ├── Currency.py
+ ├── ExchangeRate.py
+ ├── Transaction.py
+ ├── ExchangeManager.py
+ ├── main.py
+ ├── README.md
+ ├── W4A3-ClassDiagram.md
+ │
+ ../../images/
       └── W4A3-class_diagram.jpg
 
     
@@ -74,7 +74,7 @@ SQLite database operations are also separated.
 
 # UML
 The project includes one UML Class Diagram.
-See:
+
 w4A1-UserCase.md
 W4A2-ActivityDiagram.md
 W4A3-ClassDiagram.md
