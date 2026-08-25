@@ -15,23 +15,6 @@ The system allows users to:
 - Save transaction history
 
 ---
-
-# Project Structure
-MoneyExchange/
- │
- ├── database.py
- ├── Customer.py
- ├── Currency.py
- ├── ExchangeRate.py
- ├── Transaction.py
- ├── ExchangeManager.py
- ├── main.py
- ├── README.md
- ├── W4A3-ClassDiagram.md
- │
- ../../images/
-      └── W4A3-class_diagram.jpg
-
     
 # Classes
 
@@ -74,10 +57,9 @@ SQLite database operations are also separated.
 
 # UML
 The project includes one UML Class Diagram.
-
-w4A1-UserCase.md
-W4A2-ActivityDiagram.md
-W4A3-ClassDiagram.md
+- w4A1-UserCase.md
+- W4A2-ActivityDiagram.md
+- W4A3-ClassDiagram.md
 
 # Requirements
 - Python 3
