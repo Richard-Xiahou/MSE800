@@ -34,7 +34,7 @@ Three UML diagrams are included in this project.
 
 The Use Case Diagram shows how students and lecturers interact with the system.
 
-![Use Case](https://github.com/Richard-Xiahou/MSE800/blob/main/week05/images/W5A1-UseCase.jpg)
+![Use Case](https://github.com/Richard-Xiahou/MSE800/blob/main/week05/images/W5A1_UML_UserCase_Diagram.jpg)
 
 ---
 
@@ -42,7 +42,7 @@ The Use Case Diagram shows how students and lecturers interact with the system.
 
 The Activity Diagram shows the process of a student enrolling in a course.
 
-![Activity Diagram](https://github.com/Richard-Xiahou/MSE800/blob/main/week05/images/W5A1-Activity.jpg)
+![Activity Diagram](https://github.com/Richard-Xiahou/MSE800/blob/main/week05/images/W5A1_UML_Active_Diagram.jpg)
 
 ---
 
@@ -50,7 +50,7 @@ The Activity Diagram shows the process of a student enrolling in a course.
 
 The Class Diagram shows the classes, attributes, methods and relationships in the system.
 
-![Class Diagram](https://github.com/Richard-Xiahou/MSE800/blob/main/week05/images/W5A1-ClassDiagram.jpg)
+![Class Diagram](https://github.com/Richard-Xiahou/MSE800/blob/main/week05/images/W5A1_UML_Class_Diagram.jpg)
 
 ---
 
