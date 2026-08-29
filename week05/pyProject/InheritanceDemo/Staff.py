@@ -7,4 +7,5 @@ class Staff(Person):
 
   def display(self):
     print("Staff ID: ", self.Id)
+    print("Staff name: ", self.name)
     print("Staff tax_num: ", self.tax_num)

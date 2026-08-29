@@ -17,3 +17,6 @@ Academic staff can display the number of publications.
 General staff can display the pay rate.
 
 This project demonstrates inheritance, classes, objects, attributes and methods.
+
+## ran Cli
+```python3 main.py```
