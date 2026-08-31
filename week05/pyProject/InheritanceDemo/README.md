@@ -18,5 +18,5 @@ General staff can display the pay rate.
 
 This project demonstrates inheritance, classes, objects, attributes and methods.
 
-## ran Cli
+## run Cli
 ```python3 main.py```
