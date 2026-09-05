@@ -146,18 +146,20 @@ The decorator receives the class and returns a modified class.
 
 # Common Uses of Decorators
 
+
 Decorators are widely used in real software development.
+实际开发中 Decorator 的使用场景
 
 Examples include:
 
-- Logging
-- Authentication
-- Permission checking
-- Timing functions
-- Input validation
-- Error handling
-- Caching
-- Performance monitoring
+- Logging (日志)
+- Authentication (认证)
+- Permission checking (权限检查)
+- Timing functions (计时函数)
+- Input validation (输入验证)
+- Error handling (错误处理)
+- Caching (缓存)
+- Performance monitoring (性能监控)
 
 These features can be added without changing the original function.
 
