@@ -1,0 +1,28 @@
+@startuml
+
+title Payment System Using Polymorphism
+
+class Payment{
+    +customer_name : string
+    +amount : float
+    +__init__(customer_name, amount)
+    +make_payment()
+}
+
+class CreditCard{
+    +make_payment()
+}
+
+class PayPal{
+    +make_payment()
+}
+
+class BankTransfer{
+    +make_payment()
+}
+
+Payment <|-- CreditCard
+Payment <|-- PayPal
+Payment <|-- BankTransfer
+
+@enduml
