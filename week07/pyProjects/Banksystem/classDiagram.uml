@@ -1,0 +1,35 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+
+class BankAccount{
+
+    - account_number : string
+    - customer_name : string
+    - balance : float
+
+    + __init__(account_number, customer_name, balance)
+
+    + deposit(amount)
+
+    + withdraw(amount)
+
+    + display_account()
+
+}
+
+class SavingsAccount{
+
+    - interest_rate : float
+
+    + __init__(account_number, customer_name, balance, interest_rate)
+
+    + calculate_interest()
+
+    + display_account_type()
+
+}
+
+SavingsAccount --|> BankAccount
+
+@enduml
