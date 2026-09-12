@@ -1,0 +1,27 @@
+@startuml
+
+title ATM System Using Abstraction
+
+abstract class ATM{
+
+    +insert_card()
+    +enter_pin()
+    +check_balance()
+    +withdraw(amount)
+}
+
+class BankATM{
+
+    -balance : float
+    -pin : string
+
+    +__init__()
+    +insert_card()
+    +enter_pin()
+    +check_balance()
+    +withdraw(amount)
+}
+
+ATM <|-- BankATM
+
+@enduml
