@@ -1,0 +1,23 @@
+@startuml
+
+title University System Using Composition
+
+class Department{
+    -department_name : string
+    -head : string
+
+    +__init__(department_name, head)
+    +show_department()
+}
+
+class University{
+    -university_name : string
+    -department : Department
+
+    +__init__(university_name, department_name, head)
+    +show_university()
+}
+
+University *-- Department : has-a
+
+@enduml
