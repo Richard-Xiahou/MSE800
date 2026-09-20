@@ -13,9 +13,12 @@ class Adapter(Target):
 
     def request(self):
         self.adaptee.specific_request()
-        
 # Client
+
 # Composition-based Adapter
-adaptee = Adaptee()
-adapter = Adapter(adaptee)
+adaptee = Adaptee() 
+adapter = Adapter(adaptee) # Adapter contains/has an Adaptee
 adapter.request()
+
+# composition of adapters
+req = Adapter(Adapter(adaptee)).request()
