@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"></link>
+  </head>
+  <body>
+    <div class="container">
+      <h1>{{ title }}</h1>
+      <p>Your BMI is: {{ bmi }}</p>
+      <p>Category: {{ category }}</p>
+      <a href="/bmi" class="btn btn-primary">Calculate Again</a>
+    </div>
+  </body>
+</html>
